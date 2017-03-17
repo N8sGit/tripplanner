@@ -10,6 +10,6 @@ var Activity = db.define('activity', {
 		type: Sequelize.STRING,
 		allowNull: false
 	}
-}, {});
+});
 
 module.exports = Activity;

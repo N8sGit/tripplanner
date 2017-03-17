@@ -18,6 +18,6 @@ var Hotel = db.define('hotel', {
 		type: Sequelize.STRING,
 		allowNull: false
 	}
-}, {});
+});
 
 module.exports = Hotel;

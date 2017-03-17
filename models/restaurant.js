@@ -18,6 +18,6 @@ var Restaurant = db.define('restaurant', {
 			max: 5
 		}
 	}
-}, {});
+});
 
 module.exports = Restaurant;
